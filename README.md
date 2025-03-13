@@ -24,10 +24,8 @@ This guide explains how to disable current and future public preview items (such
 
 In the image below, you can see the preview items listed in the left blade of AI Foundry projects:
 
-*An external link was removed to protect your privacy.* 
-Once the tag is applied to the Azure AI Project, the preview items will no longer be visible:
+Before Applying Tag : 
+![Before Applying Tag](https://raw.githubusercontent.com/shivangvora39/AIFoundryPolicies/main/images/AIFoundryBeforeTag.jpg)
 
-*An external link was removed to protect your privacy.* 
----
-
-Please replace `path_to_image` with the actual path to your images. Let me know if you need any further assistance!
+After Applying Tag : 
+![After Appluing Tag](https://raw.githubusercontent.com/shivangvora39/AIFoundryPolicies/main/images/AIFoundryAfterTag.jpg)
