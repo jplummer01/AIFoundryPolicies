@@ -4,7 +4,7 @@ Here's a formatted version of the text for your README.md file on GitHub:
 
 # Disable Preview Items in AI Foundry
 
-This guide explains how to disable current and future public preview items (such as Agents, Templates, Tracing, Healthcare Playground, and more) from AI Foundry by adding a specific tag to your Azure AI projects and Azure OpenAI Service.
+This guide explains how to disable current and future public preview items (such as Agents, Templates, Tracing, Healthcare Playground, and more) from AI Foundry by adding a specific tag to your Azure AI projects (Hub resource and AI Foundry resource) and Azure OpenAI Service.
 
 ## Steps to Disable Preview Items
 
@@ -13,12 +13,14 @@ This guide explains how to disable current and future public preview items (such
 ## Applicable Services
 
 - **Azure OpenAI Service**
-- **Azure AI Project**
+- **Azure AI Hub Resource Projects**
+- **Azure AI Foundry Resource Projects**
 
 ## Resource Types and Kinds
 
 - **Type**: `Microsoft.CognitiveServices/accounts` - **Kind**: `OpenAI`
 - **Type**: `Microsoft.MachineLearningServices/workspaces` - **Kind**: `Project`
+- **Type**: `Microsoft.CognitiveServices/accounts/projects` - **Kind**: `AIServices`
 
 ## Visual Representation
 
