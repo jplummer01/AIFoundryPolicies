@@ -9,6 +9,18 @@
                             "allOf": [
                                 {
                                     "field": "type",
+                                    "equals": "Microsoft.CognitiveServices/accounts/projects"
+                                },
+                                {
+                                    "field": "kind",
+                                    "equals": "AIServices"
+                                }
+                            ]
+                        },
+                        {
+                            "allOf": [
+                                {
+                                    "field": "type",
                                     "equals": "Microsoft.CognitiveServices/accounts"
                                 },
                                 {
