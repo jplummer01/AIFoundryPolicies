@@ -2,7 +2,7 @@ Here's a formatted version of the text for your README.md file on GitHub:
 
 ---
 
-# Disable Preview Items in AI Foundry
+# Disable Preview Items in Microsoft Foundry (Classic and New)
 
 This guide explains how to disable current and future public preview items (such as Agents, Templates, Tracing, Healthcare Playground, and more) from AI Foundry by adding a specific tag to your Azure AI projects (Hub resource and AI Foundry resource) and Azure OpenAI Service.
 
@@ -24,7 +24,17 @@ This guide explains how to disable current and future public preview items (such
 
 ## Visual Representation
 
-In the image below, you can see the preview items listed in the left blade of AI Foundry projects:
+In the image below, you can see the preview items listed in the left blade of AI Foundry projects as well as the new Microsoft Foundry Projects:
+
+CLASSIC - 
+
+Before Applying Tag : 
+![Before Applying Tag](https://raw.githubusercontent.com/shivangvora39/AIFoundryPolicies/main/images/AIFoundryBeforeTag.jpg)
+
+After Applying Tag : 
+![After Appluing Tag](https://raw.githubusercontent.com/shivangvora39/AIFoundryPolicies/main/images/AIFoundryAfterTag.jpg)
+
+NEW - 
 
 Before Applying Tag : 
 ![Before Applying Tag](https://raw.githubusercontent.com/shivangvora39/AIFoundryPolicies/main/images/AIFoundryBeforeTag.jpg)
